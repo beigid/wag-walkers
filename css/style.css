@@ -1,1 +1,79 @@
-/* Custom styles go here. */
+div.carousel-caption h2 {
+  text-shadow: 2px 2px black;
+}
+
+h1, h2 {
+  font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header.carousel .fill {
+  background-position: 50% 40%;
+  
+}
+
+.navbar-inverse .navbar-brand {
+  color: black;
+  font-size: 35px;
+  font-family: Georgia;
+  text-shadow: 1px 1px white;
+}
+
+a.btn.btn-default {
+  float: right; 
+}
+
+.navbar-inverse .navbar-nav {
+  font-family: Georgia;
+}
+
+img.img-responsive {
+  height: 200px;
+}
+
+body div.container {
+  background-image: url("../images/background-paws.jpg");
+  background-repeat: no-repeat;
+}
+
+div.container div.row {
+  text-shadow: 2px 2px white;
+  font-size: 20px;
+  color: black;
+}
+
+.navbar-inverse {
+ background-color: #b7f2f4;
+}
+
+.aboutsec .aboutbg {
+      background-color: rgba(255, 255, 255, 0.7);
+}
+img.blog-img {
+  width: 650px;
+  height: 500px;
+}
+
+.btn-primary {
+  text-shadow: none;
+}
+
+.panel-heading h4 {
+  text-align: center;
+}
+
+.panel .panel-heading {
+      background-color: rgba(66, 203, 255, 0.3);
+}
+
+.row .contact-details {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+}
+
+.about-bg {
+  background-color: rgba(255, 255, 255, 0.7);
+}
