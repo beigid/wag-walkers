@@ -5,6 +5,7 @@ div.carousel-caption h2 {
 h1, h2 {
   font-weight: bold;
     background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
 
 header.carousel .fill {
@@ -63,7 +64,7 @@ img.blog-img {
 }
 
 .panel .panel-heading {
-      background-color: rgba(66, 203, 255, 0.3);
+      background-color: rgba(209, 215, 244, 0.8);
 }
 
 .row .contact-details {
@@ -76,4 +77,24 @@ img.blog-img {
 
 .about-bg {
   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-caption h2 {
+   border-radius: 25px;
+  display: block;
+}
+
+.fa-stack .fa-square {
+  color: #a858c2;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar .navbar-nav {
+      column-count: 3;
+      border: 1px solid black;        
+    }
+ 
 }
