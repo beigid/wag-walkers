@@ -1,6 +1,13 @@
+body {
+  padding-top: 0;
+}
+
 div.carousel-caption h2 {
   text-shadow: 2px 2px black;
+    background-color: rgba(209, 215, 244, 0.8);
+    padding: 10px;
 }
+
 
 h1, h2 {
   font-weight: bold;
@@ -44,7 +51,7 @@ div.container div.row {
 }
 
 .navbar-inverse {
- background-color: #b7f2f4;
+ background-color: rgba(209, 215, 244, 0.8);
 }
 
 .aboutsec .aboutbg {
@@ -86,6 +93,15 @@ img.blog-img {
 
 .fa-stack .fa-square {
   color: #a858c2;
+}
+
+
+@media screen and (min-width: 768px) {}
+.carousel-caption {
+    right: 35%;
+    left: 35%;
+    padding-bottom: 30px;
+}
 }
 /* 
 @media only screen 
